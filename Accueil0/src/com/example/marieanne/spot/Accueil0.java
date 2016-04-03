@@ -40,7 +40,12 @@ public class Accueil0 extends Activity {
     }
 
 
-    public void goToAccueil1(View view) {
+    public void goToInscription(View view) {
+        Intent intentSeCo = new Intent(Accueil0.this, CreerCompte.class);
+        startActivity(intentSeCo);
+    }
+    
+    public void goToEvent(View view) {
         Intent intentSeCo = new Intent(Accueil0.this, Accueil1.class);
         startActivity(intentSeCo);
     }
