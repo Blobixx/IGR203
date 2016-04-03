@@ -15,4 +15,13 @@
     <string name="title_activity_historique">Historique</string>
     <string name="title_activity_profils">Profils</string>
 
+    
+    <string-array name="items">
+    <item>Item 1</item>
+    <item>Item 2</item>
+    <item>Item 3</item>
+    <item>Item 4</item>
+    <item>Item 5</item>
+    <item>Item 6</item>
+</string-array>
 </resources>

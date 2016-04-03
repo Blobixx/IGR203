@@ -1,15 +1,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FDF1B8"
+    android:orientation="vertical" 
     tools:context="com.example.marieanne.spot.Evenement" >
 
-    >
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="35dp"
+        android:layout_height="421dp"
+        android:layout_marginTop="0dp"
         android:fillViewport="true"
         android:orientation="vertical" >
 
@@ -21,13 +22,13 @@
             <ImageView
                 android:id="@+id/imageEvent"
                 android:layout_width="match_parent"
-                android:layout_height="218dp"
+                android:layout_height="186dp"
                 android:src="@drawable/amsterdam" />
 
             <EditText
                 android:id="@+id/editText1"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:ems="10"
                 android:gravity="center"
                 android:text=" Titre de l&apos;évenement "
@@ -41,16 +42,37 @@
                 android:inputType="textMultiLine"
                 android:text=" Ici on aura la description de l&apos;évènement en détailé par l&apos;utilisateur " />
         </LinearLayout>
+        
     </ScrollView>
-    
+
     <LinearLayout
-            android:layout_marginTop="-35dp"
-            android:layout_width="match_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+         >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="106dp"
             android:layout_height="match_parent"
-            android:orientation="horizontal" >
+            android:text="Info"
+            android:background="#C8AD7F" />
         
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="106dp"
+            android:layout_height="match_parent"
+            android:text="Prix"
+            android:background="#C8AD7F" />
         
-       
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:text="Lieu"
+            android:background="#C8AD7F" />
         
-	</LinearLayout>
+    </LinearLayout>
+
+   
 </LinearLayout>

@@ -7,6 +7,8 @@
 
 package com.example.marieanne.spot;
 
+import android.view.View;
+
 public final class R {
     public static final class attr {
     }
@@ -58,6 +60,8 @@ public final class R {
         public static final int activity_list_amis=0x7f030007;
         public static final int activity_list_ev=0x7f030008;
         public static final int activity_profils=0x7f030009;
+        public static final int draweritem=0x7f030010;
+		public static final int semiactivity=0x7f030011;
     }
     public static final class menu {
         public static final int menu_accueil0=0x7f070000;
