@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 
 public class Accueil0 extends Activity {
@@ -13,7 +14,20 @@ public class Accueil0 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accueil0);
+        setContentView(R.layout.activity_list_amis);
+        /*
+        Button bouton = (Button) findViewById(R.id.button);
+        
+       bouton.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+            // Le premier paramètre est le nom de l'activité actuelle
+            // Le second est le nom de l'activité de destination
+            Intent secondeActivite = new Intent(Accueil0.this, ListAmis.class);
+            
+            startActivity(secondeActivite);
+          }
+        });*/
     }
 
 
@@ -38,10 +52,11 @@ public class Accueil0 extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-
-
+    
+      
     public void goToAccueil1(View view) {
-        Intent intentSeCo = new Intent(Accueil0.this, Accueil1.class);
+        //Intent intentSeCo = new Intent(Accueil0.this, Accueil1.class);
+    	Intent intentSeCo = new Intent(Accueil0.this, ListAmis.class);
         startActivity(intentSeCo);
     }
 }
