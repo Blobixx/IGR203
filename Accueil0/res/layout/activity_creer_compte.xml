@@ -2,11 +2,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/cafeParis"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.marieanne.spot.Accueil1" >
+
+    <EditText
+        android:id="@+id/identifiant"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eMail"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:background="#F0E36B"
+        android:ems="10"
+        android:hint="Identifiant"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/eMail"
@@ -15,6 +28,7 @@
         android:layout_alignLeft="@+id/motDePasse"
         android:layout_below="@+id/identifiant"
         android:layout_marginTop="33dp"
+        android:background="#F0E36B"
         android:ems="10"
         android:hint="E-Mail"
         android:inputType="textEmailAddress" />
@@ -26,12 +40,10 @@
         android:layout_alignLeft="@+id/motDePasse"
         android:layout_below="@+id/eMail"
         android:layout_marginTop="33dp"
+        android:background="#F0E36B"
         android:ems="10"
         android:hint="Mot De Passe"
-        android:inputType="textPassword" >
-
-        <requestFocus />
-    </EditText>
+        android:inputType="textPassword" />
 
     <EditText
         android:id="@+id/motDePasse"
@@ -40,6 +52,7 @@
         android:layout_below="@+id/eMail"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="94dp"
+        android:background="#F0E36B"
         android:ems="10"
         android:hint="Confirmation"
         android:inputType="textPassword" />
@@ -51,6 +64,7 @@
         android:layout_below="@+id/motDePasse"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
+        android:background="#F0E36B"
         android:text="En cliquant ici, j&apos;accepte les conditions d&apos;utilisation" />
 
     <Button
@@ -59,18 +73,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/acceptation"
         android:layout_centerHorizontal="true"
+        android:background="#F0E36B"
         android:layout_marginTop="31dp"
         android:text="Créer mon compte" />
-
-    <EditText
-        android:id="@+id/identifiant"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/eMail"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="35dp"
-        android:ems="10"
-        android:hint="Identifiant"
-        android:inputType="text" />
 
 </RelativeLayout>
