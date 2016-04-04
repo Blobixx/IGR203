@@ -14,20 +14,8 @@ public class Accueil0 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_amis);
-        /*
-        Button bouton = (Button) findViewById(R.id.button);
-        
-       bouton.setOnClickListener(new View.OnClickListener() {
-          @Override
-          public void onClick(View v) {
-            // Le premier paramètre est le nom de l'activité actuelle
-            // Le second est le nom de l'activité de destination
-            Intent secondeActivite = new Intent(Accueil0.this, ListAmis.class);
-            
-            startActivity(secondeActivite);
-          }
-        });*/
+        setContentView(R.layout.activity_accueil0);       
+
     }
 
 
@@ -52,11 +40,20 @@ public class Accueil0 extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-    
+ 
       
     public void goToAccueil1(View view) {
-        //Intent intentSeCo = new Intent(Accueil0.this, Accueil1.class);
-    	Intent intentSeCo = new Intent(Accueil0.this, ListAmis.class);
+       Intent intentSeCo = new Intent(Accueil0.this, Accueil1.class);
+    }
+
+
+    public void goToInscription(View view) {
+        Intent intentSeCo = new Intent(Accueil0.this, CreerCompte.class);
+        startActivity(intentSeCo);
+    }
+    
+    public void goToEvent(View view) {
+        Intent intentSeCo = new Intent(Accueil0.this, Accueil1.class);
         startActivity(intentSeCo);
     }
 }
