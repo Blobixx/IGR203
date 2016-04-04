@@ -37,11 +37,6 @@
 			<location>/cal/homes/mbuffier/Desktop/amsterdam.png</location>
 		</link>
 		<link>
-			<name>res/drawable/cafeParis.jpg</name>
-			<type>1</type>
-			<location>/cal/homes/mbuffier/Desktop/cafeParis.jpg</location>
-		</link>
-		<link>
 			<name>res/drawable/info.png</name>
 			<type>1</type>
 			<location>/cal/homes/mbuffier/Desktop/info.png</location>
