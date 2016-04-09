@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:2:1-61:12
+	package
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:5:5-59:19
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:7:9-45
+	android:theme
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:9:9-40
+activity#com.example.marieanne.spot.Accueil0
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:11:13-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.marieanne.spot.CreerCompte
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:19:9-22:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:21:13-64
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:20:13-40
+activity#com.example.marieanne.spot.Accueil1
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:23:9-26:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:25:13-60
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:24:13-37
+activity#com.example.marieanne.spot.AjoutEv
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:27:9-30:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:29:13-60
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:28:13-36
+activity#com.example.marieanne.spot.ListEv
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:31:9-34:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:33:13-59
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:32:13-35
+activity#com.example.marieanne.spot.Evenement
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:35:9-38:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:37:13-61
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:36:13-38
+activity#com.example.marieanne.spot.ProfilPerso
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:39:9-42:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:41:13-64
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:40:13-40
+activity#com.example.marieanne.spot.ListAmis
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:43:9-46:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:45:13-61
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:44:13-37
+activity#com.example.marieanne.spot.AjoutAmis
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:47:9-50:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:49:13-62
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:48:13-38
+activity#com.example.marieanne.spot.Historique
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:51:9-54:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:53:13-62
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:52:13-39
+activity#com.example.marieanne.spot.Profils
+ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:55:9-58:20
+	android:label
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:57:13-59
+	android:name
+		ADDED from /Users/etcheverrymayalen/TRAVAIL/TELECOM_2A/IGR_203/Accueil0/app/src/main/AndroidManifest.xml:56:13-36

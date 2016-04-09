@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marieanne.spot" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.marieanne.spot.Accueil0"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.CreerCompte"
+            android:label="@string/title_activity_creer_compte" >
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.Accueil1"
+            android:label="@string/title_activity_accueil1" >
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.AjoutEv"
+            android:label="@string/title_activity_ajout_ev" >
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.ListEv"
+            android:label="@string/title_activity_list_ev" >
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.Evenement"
+            android:label="@string/title_activity_evenement" >
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.ProfilPerso"
+            android:label="@string/title_activity_profil_perso" >
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.ListAmis"
+            android:label="@string/title_activity_list_amis" >
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.AjoutAmis"
+            android:label="@string/title_activity_ajout_amis" >
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.Historique"
+            android:label="@string/title_activity_historique" >
+        </activity>
+        <activity
+            android:name="com.example.marieanne.spot.Profils"
+            android:label="@string/title_activity_profils" >
+        </activity>
+    </application>
+
+</manifest>
