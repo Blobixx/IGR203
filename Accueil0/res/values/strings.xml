@@ -23,5 +23,13 @@
     <item>Item 4</item>
     <item>Item 5</item>
     <item>Item 6</item>
+        
 </string-array>
+
+    <string name="nomEvent">Titre de l\'évènement</string>
+    <string name="descriptionEvent"> Ici on aura la description de l\'évènement en détailé par l\'utilisateur</string>
+   <string name="info">Info</string>
+   <string name="prix">Prix</string>
+   <string name="lieu">Lieu</string>
+    
 </resources>

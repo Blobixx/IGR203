@@ -15,32 +15,32 @@
         android:orientation="vertical" >
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:orientation="vertical" >
 
             <ImageView
                 android:id="@+id/imageEvent"
                 android:layout_width="match_parent"
                 android:layout_height="186dp"
+                android:layout_marginTop="0dp"
                 android:src="@drawable/amsterdam" />
 
-            <EditText
+            <TextView
                 android:id="@+id/editText1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:gravity="center"
-                android:text=" Titre de l&apos;évenement "
+                android:text="@string/nomEvent"
                 android:textColor="#FF0000"
                 android:textSize="30sp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/editText2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
-                android:text=" Ici on aura la description de l&apos;évènement en détailé par l&apos;utilisateur " />
+                android:text="@string/descriptionEvent" />
         </LinearLayout>
         
     </ScrollView>
@@ -55,21 +55,21 @@
             android:id="@+id/button1"
             android:layout_width="106dp"
             android:layout_height="match_parent"
-            android:text="Info"
+            android:text="@string/info"
             android:background="#C8AD7F" />
         
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button2"
             android:layout_width="106dp"
             android:layout_height="match_parent"
-            android:text="Prix"
+            android:text="@string/prix"
             android:background="#C8AD7F" />
         
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button3"
             android:layout_width="107dp"
             android:layout_height="match_parent"
-            android:text="Lieu"
+            android:text="@string/lieu"
             android:background="#C8AD7F" />
         
     </LinearLayout>
