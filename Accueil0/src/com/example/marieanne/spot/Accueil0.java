@@ -19,11 +19,13 @@ public class Accueil0 extends Activity {
         setContentView(R.layout.activity_accueil0); 
         
         Resources res = getResources();
-        StateListDrawable Button1 = new StateListDrawable();
-        Button1.addState(new int[] {}, res.getDrawable(R.drawable.button_rouge));
+        StateListDrawable button = new StateListDrawable();
+        button.addState(new int[] {}, res.getDrawable(R.drawable.button_rouge));
+        button.addState(new int[] {android.R.attr.state_pressed}, res.getDrawable(R.drawable.button_rouge));
+        button.addState(new int[] {android.R.attr.state_focused}, res.getDrawable(R.drawable.button_rouge));
         
-        ((Button)findViewById(R.id.connexion)).setBackgroundDrawable(Button1);
-        ((Button)findViewById(R.id.inscription)).setBackgroundDrawable(Button1);
+        ((Button)findViewById(R.id.connexion)).setBackgroundDrawable(button);
+        ((Button)findViewById(R.id.inscription)).setBackgroundDrawable(button);
 
     }
 

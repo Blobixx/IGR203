@@ -1,9 +1,11 @@
 package com.example.marieanne.spot;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class CreerCompte extends Activity {
@@ -35,5 +37,10 @@ public class CreerCompte extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    
+    public void goToPageP(View view) {
+        Intent intentSeCo = new Intent(CreerCompte.this, Accueil1.class);
+        startActivity(intentSeCo);
     }
 }

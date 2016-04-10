@@ -15,29 +15,29 @@
     <string name="title_activity_historique">Historique</string>
     <string name="title_activity_profils">Profils</string>
 
-    
     <string-array name="items">
-    <item>Item 1</item>
-    <item>Item 2</item>
-    <item>Item 3</item>
-    <item>Item 4</item>
-    <item>Item 5</item>
-    <item>Item 6</item>
-        
-</string-array>
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+        <item>Item 6</item>
+    </string-array>
 
     <string name="nomEvent">Titre de l\'évènement</string>
     <string name="descriptionEvent"> Ici on aura la description de l\'évènement en détailé par l\'utilisateur</string>
-   <string name="info">Info</string>
-   <string name="prix">Prix</string>
-   <string name="lieu">Lieu</string>
-   <string name="identifiant">Identifiant</string>
-   <string name="title">SPOT</string>
-   <string name="motDePasse">Mot de passe</string>
-   <string name="connexion">   Connexion   </string>
-   <string name="inscription">   Inscription   </string>
-   
-   
-   
+    <string name="info">Info</string>
+    <string name="prix">Prix</string>
+    <string name="lieu">Lieu</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="title">SPOT</string>
+    <string name="motDePasse">Mot de passe</string>
+    <string name="connexion">   Connexion   </string>
+    <string name="inscription">   Inscription   </string>
+    <string name="confirmation">Confirmation</string>
+    <string name="textBox">En cliquant ici, j\'accepte les conditions d\'utilisation</string>
+    <string name="creation">    Créer mon compte    </string>
+    <string name="email">E-Mail</string>
+    
     
 </resources>

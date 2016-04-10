@@ -24,38 +24,44 @@ public final class R {
     }
     public static final class drawable {
         public static final int amsterdam=0x7f020000;
-        public static final int boutons=0x7f020001;
-        public static final int button_rouge=0x7f020002;
-        public static final int cafe=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int info=0x7f020005;
-        public static final int mayane=0x7f020006;
-        public static final int shodomodo=0x7f020007;
-        public static final int shodoshane=0x7f020008;
+        public static final int art=0x7f020001;
+        public static final int bar=0x7f020002;
+        public static final int button=0x7f020003;
+        public static final int button_rouge=0x7f020004;
+        public static final int cafe=0x7f020005;
+        public static final int concert=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int info=0x7f020008;
+        public static final int mayane=0x7f020009;
+        public static final int resto=0x7f02000a;
+        public static final int shodomodo=0x7f02000b;
+        public static final int shodoshane=0x7f02000c;
+        public static final int shopping=0x7f02000d;
     }
     public static final class id {
-        public static final int acceptation=0x7f090006;
-        public static final int action_settings=0x7f090016;
-        public static final int button1=0x7f09000b;
-        public static final int button2=0x7f09000c;
-        public static final int button3=0x7f09000d;
-        public static final int checkbox_amis=0x7f09000f;
+        public static final int acceptation=0x7f090008;
+        public static final int action_settings=0x7f090017;
+        public static final int button1=0x7f09000c;
+        public static final int button2=0x7f09000d;
+        public static final int button3=0x7f09000e;
+        public static final int checkbox_amis=0x7f090010;
+        public static final int confirmation=0x7f090006;
         public static final int connexion=0x7f090003;
         public static final int creation=0x7f090007;
-        public static final int display_drawer_txt=0x7f090014;
-        public static final int drawer_layout=0x7f090013;
+        public static final int display_drawer_txt=0x7f090015;
+        public static final int drawer_layout=0x7f090014;
         public static final int eMail=0x7f090005;
-        public static final int editText1=0x7f090009;
-        public static final int editText2=0x7f09000a;
+        public static final int editText1=0x7f09000a;
+        public static final int editText2=0x7f09000b;
         public static final int identifiant=0x7f090001;
-        public static final int imageEvent=0x7f090008;
+        public static final int imageEvent=0x7f090009;
         public static final int inscription=0x7f090004;
-        public static final int listviewamis=0x7f09000e;
-        public static final int maphoto=0x7f090010;
+        public static final int listviewamis=0x7f09000f;
+        public static final int maphoto=0x7f090011;
         public static final int motDePasse=0x7f090002;
-        public static final int my_drawer=0x7f090015;
-        public static final int nombreamis=0x7f090012;
-        public static final int pseudo=0x7f090011;
+        public static final int my_drawer=0x7f090016;
+        public static final int nombreamis=0x7f090013;
+        public static final int pseudo=0x7f090012;
         public static final int textView1=0x7f090000;
     }
     public static final class layout {
@@ -90,8 +96,11 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
+        public static final int confirmation=0x7f050017;
         public static final int connexion=0x7f050015;
+        public static final int creation=0x7f050019;
         public static final int descriptionEvent=0x7f05000e;
+        public static final int email=0x7f05001a;
         public static final int hello_world=0x7f050001;
         public static final int identifiant=0x7f050012;
         public static final int info=0x7f05000f;
@@ -100,6 +109,7 @@ public final class R {
         public static final int motDePasse=0x7f050014;
         public static final int nomEvent=0x7f05000d;
         public static final int prix=0x7f050010;
+        public static final int textBox=0x7f050018;
         public static final int title=0x7f050013;
         public static final int title_activity_accueil1=0x7f050004;
         public static final int title_activity_ajout_amis=0x7f05000a;
