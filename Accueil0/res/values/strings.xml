@@ -31,5 +31,13 @@
    <string name="info">Info</string>
    <string name="prix">Prix</string>
    <string name="lieu">Lieu</string>
+   <string name="identifiant">Identifiant</string>
+   <string name="title">SPOT</string>
+   <string name="motDePasse">Mot de passe</string>
+   <string name="connexion">   Connexion   </string>
+   <string name="inscription">   Inscription   </string>
+   
+   
+   
     
 </resources>

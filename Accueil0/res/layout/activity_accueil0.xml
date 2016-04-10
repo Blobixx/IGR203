@@ -15,9 +15,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text=" SPOT "
+        android:text="@string/title"
         android:textColor="#6D071A"
-        android:textSize="70sp"
+        android:textSize="90sp"
         android:textStyle="bold" />
 
     <EditText
@@ -26,9 +26,12 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="120dp"
-        android:background="#F0E36B"
-        android:hint="Identifiant"
-        android:inputType="text" />
+        android:background="#AA000000"
+        android:hint="@string/identifiant"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/motDePasse"
@@ -36,13 +39,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="160dp"
-        android:background="#F0E36B"
-        android:hint="Mot de passe"
+        android:background="#AA000000"
+        android:hint="@string/motDePasse"
         android:inputType="textPassword"
-        android:password="true" >
-
-        <requestFocus />
-    </EditText>
+        android:password="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/connexion"
@@ -50,21 +53,21 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="220dp"
-        android:background="#F0E36B"
+        android:background="@drawable/button_rouge"
         android:gravity="center"
         android:onClick="goToEvent"
-        android:text="Connexion" />
+        android:text="@string/connexion" />
 
     <Button
         android:id="@+id/inscription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/connexion"
         android:layout_below="@+id/connexion"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="56dp"
-        android:background="#F0E36B"
+        android:background="@drawable/button_rouge"
         android:gravity="center"
         android:onClick="goToInscription"
-        android:text="Inscription" />
+        android:text="@string/inscription" />
 
 </RelativeLayout>

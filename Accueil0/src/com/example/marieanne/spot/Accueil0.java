@@ -1,8 +1,9 @@
 package com.example.marieanne.spot;
 
-
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.drawable.StateListDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,7 +16,14 @@ public class Accueil0 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accueil0);       
+        setContentView(R.layout.activity_accueil0); 
+        
+        Resources res = getResources();
+        StateListDrawable Button1 = new StateListDrawable();
+        Button1.addState(new int[] {}, res.getDrawable(R.drawable.button_rouge));
+        
+        ((Button)findViewById(R.id.connexion)).setBackgroundDrawable(Button1);
+        ((Button)findViewById(R.id.inscription)).setBackgroundDrawable(Button1);
 
     }
 
