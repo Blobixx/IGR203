@@ -10,9 +10,10 @@
     tools:context="com.example.marieanne.spot.Accueil1" >
 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="50sp"
+        android:layout_marginBottom="60sp"
         android:layout_marginLeft="2sp"
         android:layout_marginRight="5sp"
         android:layout_marginTop="0sp"
@@ -27,13 +28,18 @@
             <ImageButton
                 android:id="@+id/art"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="5sp"
                 android:layout_marginLeft="2sp"
                 android:layout_marginRight="5sp"
                 android:layout_marginTop="0sp"
                 android:layout_weight="1"
-                android:background="@drawable/art"
+                android:padding="10dip"
+                android:adjustViewBounds="true"
+        		
+        		android:scaleType="fitCenter"
+				android:src="@drawable/art"
+                android:background="@drawable/contour"
                 android:contentDescription="@null" />
 
             <ImageButton
@@ -45,7 +51,12 @@
                 android:layout_marginRight="5sp"
                 android:layout_marginTop="0sp"
                 android:layout_weight="1"
-                android:background="@drawable/balade"
+                android:padding="10dip"
+                android:adjustViewBounds="true"
+        		
+        		android:scaleType="fitCenter"
+                android:src="@drawable/balade"
+                android:background="@drawable/contour"
                 android:contentDescription="@null" />
         </LinearLayout>
 
@@ -64,7 +75,12 @@
                 android:layout_marginRight="5sp"
                 android:layout_marginTop="0sp"
                 android:layout_weight="1"
-                android:background="@drawable/resto"
+                android:padding="10dip"
+                android:adjustViewBounds="true"
+        		
+        		android:scaleType="fitCenter"
+                android:src="@drawable/resto"
+                android:background="@drawable/contour"
                 android:contentDescription="@null" />
 
             <ImageButton
@@ -76,7 +92,12 @@
                 android:layout_marginRight="5sp"
                 android:layout_marginTop="0sp"
                 android:layout_weight="1"
-                android:background="@drawable/bar"
+                android:padding="10dip"
+                android:adjustViewBounds="true"
+        		
+        		android:scaleType="fitCenter"
+                android:src="@drawable/bar"
+                android:background="@drawable/contour"
                 android:contentDescription="@null" />
         </LinearLayout>
 
@@ -95,21 +116,43 @@
                 android:layout_marginRight="5sp"
                 android:layout_marginTop="0sp"
                 android:layout_weight="1"
-                android:background="@drawable/concert"
+                
+                android:adjustViewBounds="true"
+        		android:padding="10dip"
+        		android:scaleType="fitCenter"
+                android:src="@drawable/concert"
+                android:background="@drawable/contour"
                 android:contentDescription="@null" />
 
             <ImageButton
                 android:id="@+id/shopping"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="5sp"
                 android:layout_marginLeft="2sp"
                 android:layout_marginRight="5sp"
                 android:layout_marginTop="0sp"
                 android:layout_weight="1"
-                android:background="@drawable/shopping"
+                
+                android:adjustViewBounds="true"
+        		android:padding="10dip"
+        		android:scaleType="fitCenter"
+                android:src="@drawable/shopping"
+                android:background="@drawable/contour"
                 android:contentDescription="@null" />
         </LinearLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/boutonPlus"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/boutonrond"
+        android:gravity="center"
+        android:text="@string/Plus"
+        android:textColor="#000000"
+        android:textSize="35dp" />
 
 </RelativeLayout>

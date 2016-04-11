@@ -37,7 +37,8 @@
     <string name="confirmation">Confirmation</string>
     <string name="textBox">En cliquant ici, j\'accepte les conditions d\'utilisation</string>
     <string name="creation">    Créer mon compte    </string>
-    <string name="email">E-Mail</string>
-    
-    
+    <string name="email">    E-Mail    </string>
+    <string name="Plus">    +    </string>
+
+
 </resources>

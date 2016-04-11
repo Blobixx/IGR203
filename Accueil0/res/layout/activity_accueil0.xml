@@ -18,7 +18,8 @@
         android:text="@string/title"
         android:textColor="#6D071A"
         android:textSize="90sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+         />
 
     <EditText
         android:id="@+id/identifiant"
@@ -31,7 +32,7 @@
         android:inputType="text"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textStyle="bold" />
+         />
 
     <EditText
         android:id="@+id/motDePasse"
@@ -45,7 +46,7 @@
         android:password="true"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textStyle="bold" />
+         />
 
     <Button
         android:id="@+id/connexion"
@@ -53,10 +54,11 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="220dp"
-        android:background="@drawable/button"
+        android:background="@drawable/boutonrouge"
         android:gravity="center"
         android:onClick="goToEvent"
-        android:text="@string/connexion" />
+        android:text="@string/connexion"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/inscription"
@@ -65,9 +67,10 @@
         android:layout_below="@+id/connexion"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="56dp"
-        android:background="@drawable/button"
+        android:background="@drawable/boutonrouge"
         android:gravity="center"
         android:onClick="goToInscription"
-        android:text="@string/inscription" />
+        android:text="@string/inscription"
+        android:textColor="#FFFFFF" />
 
 </RelativeLayout>
